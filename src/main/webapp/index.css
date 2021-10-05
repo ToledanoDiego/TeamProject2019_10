@@ -1,0 +1,434 @@
+body {
+    background-image: url("images/background.jpg");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    border: 1px black;
+    box-sizing: border-box;
+    color: black;
+    z-index: 1;
+}
+
+#logo {
+    align-items: center;
+}
+
+#ctip {
+    position: absolute;
+    float: right;
+    bottom: 25px;
+    left: 27.4%;
+}
+
+#ctiplabel {
+    position: absolute;
+    float: right;
+    bottom: 23px;
+    left: 23%;
+}
+
+.cancelbtn {
+    width: auto;
+    background-color: rgb(210, 255, 77);
+}
+
+#waiter-btn {
+    z-index: 1;
+}
+
+.popup_container {
+    padding: 20px;
+    background-image: url("images/background.jpg");
+    border-radius: 5px;
+}
+
+.add_button {
+    background-color: rgb(210, 255, 77);
+}
+
+#inputs {
+    float: right;
+    /* margin-left: 40%; */
+    width: 70%;
+}
+
+#confirm_contents {
+    float: left;
+    margin-left: 0;
+    margin-top: 10px;
+    width: 30%;
+    height: 85%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+#payment_contents {
+    float: left;
+    margin-left: -10px;
+    margin-top: 10px;
+    width: 30%;
+    height: 85%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    position: fixed;
+    background-color: rgb(69, 69, 69);
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 2px Silver,
+    0px -2px Silver,
+    2px 0px Silver,
+    -2px 0px Silver,
+    -2px 2px 4px 4px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Cmodal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.Cmodal-content {
+    background-color: rgb(69,69,69);
+    width: 40%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    left: 10%;
+
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.desc-popup {
+    display: none;
+    position: relative;
+    box-shadow: 0px 2px Silver,
+    0px -2px Silver,
+    2px 0px Silver,
+    -2px 0px Silver,
+    -2px 2px 4px 4px;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    padding-right: 25px;
+}
+
+.Cpopup_container {
+    padding: 20px;
+    background-image: url("images/background.jpg");
+    border-radius: 5px;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    background-image: url("images/background.jpg");
+    text-align: left;
+}
+
+#ctotal {
+    position: absolute;
+}
+
+#expmonth {
+    width: 40px;
+}
+
+#expyear {
+    width: 40px;
+}
+
+.pmodal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.categories {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    display: inline-block;
+    text-align: center;
+    /*margin: auto;*/
+    width: 100%;
+    padding-right: 150px;
+ }
+
+.panel-title {
+    align-items: center;
+    text-align: center;
+}
+
+.panel-heading {
+    float: left;
+}
+
+.panel-heading a{
+	color:rgb(77, 46, 0); 
+	cursor:pointer
+}
+
+.box {
+    background-image: url("images/background.jpg");
+    color: rgb(77, 46, 0);
+}
+
+
+.cquant {
+    padding: 2px;
+    display: inline-block;
+}
+
+#list {
+    margin-right: 5%;
+    padding-left: 3vw;
+    padding-right: 40vw;
+    text-align: center;
+}
+
+.item {
+    color: rgb(77, 46, 0);
+    margin-left: 3%;
+    display: inline-block;
+    width: 190px;
+}
+
+.item h2 {
+    font-size: 16px;
+}
+.remove {
+    display: inline-block;
+}
+
+#checkout_btn {
+    display: block;
+    float: right;
+}
+
+.item_price {
+    display: inline-block;
+    padding: 2px;
+}
+
+.item-img {
+    align-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.progress-container{
+    width: 25%;
+    position:fixed;
+    bottom: 25%;
+    right: 0%;
+}
+
+.progressbar{
+
+}
+
+.progressbar li {
+    color: rgb(77, 46, 0);
+    font-family: 'Asap', sans-serif;
+    text-shadow: -1px 1px rgb(255, 214, 153);
+    text-align: justify;
+    list-style-type: none;
+    float: left;
+    width: 6.25%;
+    padding-right: 25%;
+    display: inline-block;
+    position: relative;
+    line-height: 25px;
+}
+
+.progressbar img {
+    width: 45px;
+    height: 45px;
+    opacity: 0.2;
+}
+
+.progressbar li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+    bottom: 40px;
+    right: 65%;
+    z-index: -1;
+}
+
+.progressbar li:first-child:after {
+    content: none;
+
+}
+
+.progressbar li.active img {
+    opacity: 1;
+}
+
+.progressbar li.active + li:after {
+    background-color: green;
+}
+
+.pay-container {
+    width: 10%;
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+}
+
+.pay-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    width: 25%;
+    background-image: url("images/background.jpg");
+    box-shadow: 0px -2px Silver;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+.title {
+    padding: 3%;
+    background-image: url("images/background.jpg");
+}
+
+.collapse1 {
+
+}
+
+
+.collapse {
+
+}
+
+.item_text {
+    position: center;
+    align-items: center;
+}
+
+.panel-title {
+    text-align: center;
+    overflow: hidden;
+}
+
+.citem {
+    display: inline-block;
+}
+
+#checkout {
+    position: fixed;
+    right: 20px;
+    margin-top: -5vh;
+    text-align: right;
+}
+
+
+
+#checkout_popup {
+}
+
+#contact {
+    align: bottom;
+    width: 60%;
+    position: relative;
+    left: 20px;
+}
+
+h1 {
+    color: rgb(77, 46, 0);
+    font: bold 70px arial, sans-serif;
+    text-shadow: -1px 1px rgb(255, 214, 153);
+}
+
+h2 {
+    color: rgb(77, 46, 0);
+    font: bold 20px arial, sans-serif;
+    text-shadow: -1px 1px rgb(255, 214, 153);
+}
+
+h3 {
+    color: rgb(77, 46, 0);
+    font: bold 25px arial, sans-serif;
+    text-shadow: -1px 1px rgb(255, 214, 153);
+}
+
+h4 {
+    color: rgb(77, 46, 0);
+    text-shadow: -1px 1px rgb(255, 214, 153);
+}
+
+p {
+    color: rgb(77, 46, 0);
+    font-family: 'Asap', sans-serif;
+    text-shadow: -1px 1px rgb(255, 214, 153);
+    text-align: justify;
+}
+
+hr {
+    height: 2px;
+    width: 100%;
+    background-image: url("images/background.jpg");
+}
+
+button {
+    color: rgb(210, 255, 77);
+    font: bold 15px arial, sans-serif;
+    background-color: rgb(210, 255, 77);
+    border-radius: 2px;
+    border-width: thin;
+    border-color: Silver;
+}

@@ -1,0 +1,138 @@
+body {
+    background-image: url("../images/background.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    border-radius: 10px;
+    box-shadow: 0px 2px Silver,
+    0px -2px Silver,
+    2px 0px Silver,
+    -2px 0px Silver,
+    -2px 2px 4px 4px;
+    overflow: hidden;
+}
+
+.order {
+    width: 350px;
+    display: inline-block;
+    /*overflow-y: hidden;*/
+    padding: 25px;
+
+}
+.comment {
+    background-color: white;
+    position: marker;
+    z-index: 1;
+    /*bottom: -50px;*/
+    left: -100px;
+}
+
+title {
+    padding: 3%;
+    background-image: url("../images/background.jpg");
+}
+
+.stopwatch {
+    position: relative;
+    bottom: -120px;
+    right:0px;
+}
+.order_text {
+    margin-top: 30px;
+    float: left;
+    color: black;
+    margin-bottom: 40px;
+    display: block;
+}
+.item {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+    /*height: 200px;*/
+    /*min-height: 200px;*/
+}
+
+#item_text {
+    margin-top: -20px;
+    margin-right: 5px;
+    width: 200px;
+}
+
+h1 {
+    color: rgb(77, 46, 0);
+    font: bold 70px arial, sans-serif;
+    text-shadow: -1px 1px rgb(255, 214, 153);
+}
+
+h2 {
+
+    color: black;
+    font: bold 25px arial, sans-serif;
+    text-shadow: -1px 1px Black;
+    margin-top: -5px;
+    float: left;
+}
+
+p {
+    color: white;
+    font: bold 20px arial, sans-serif;
+    text-shadow: -4px 4px Black;
+    position: relative;
+    left: 150px;
+    margin-top: -20px;
+
+}
+
+h3 {
+    margin-top: -20px;
+    color: black;
+    position: relative;
+    float: right;
+    bottom: 100px;
+
+}
+
+.roundButton {
+    position: absolute;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: black !important;
+    background-color: #bfbfbf !important;
+    font-size: 2vw !important;
+    border: 5px solid #ccc !important;
+    border-radius: 50%;
+    border-color: #fff !important;
+    transition: opacity 0s;
+    box-shadow: 0px 1px Silver,
+    0px -3px Silver,
+    1px 0px Silver,
+    -3px 0px Silver,
+    -3px 1px 3px 4px;
+    z-index: 1;
+
+
+}
+
+h4 {
+    margin-top: 40%;
+    color: black;
+    font: bold 25px arial, sans-serif;
+
+}
+
+button {
+    font: bold 15px arial, sans-serif;
+    background-color: rgb(50, 255, 0);
+    border-radius: 2px;
+    border-width: thin;
+    border-color: Silver;
+
+}
+border0{
+    background-color: black;
+}
+#border0 {
+    background-color: black;
+}

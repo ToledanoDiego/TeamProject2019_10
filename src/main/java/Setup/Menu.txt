@@ -1,0 +1,18 @@
+1,Starter,https://i.ibb.co/ZxKFZV9/buffalo-chicken-nachos.jpg,Chicken nachos,Crispy nachos smothered in crispy chicken and creamy gorgonzola.,4.25,380,N,Y,N,N,Y,N,N
+2,Starter,https://i.ibb.co/GnmmtjX/jalapeno-poppers-11.jpg,Jalapeno cheese poppers,Jalapeño peppers that have been hollowed out stuffed with a mixture of cheese and spices.,4.25,380,N,N,N,N,Y,N,N
+3,Starter,https://i.ibb.co/qMvsjxC/unnamed.jpg,Huevos diablos, Deviled eggs with a spicy Mexican twist.,4.50,510,N,Y,N,N,N,Y,N
+4,Main,https://i.ibb.co/RycNm19/chicken-enchiladas-suiza-2.jpg,The Big Enchillada,A Truely massive enchillada stuffed with chicken beef and pork and 5 different types of cheese.,4.50,510,N,N,N,N,N,Y
+5,Main,https://i.ibb.co/PGxBZ68/grilled-fish-tacos-9.jpg,Vertaco,A high stack taco filled with beef.,4.50,400,N,Y,N,N,N,N,N
+6,Main,https://i.ibb.co/Sc7VPp7/oven-fried-chimichangas-2.jpg,CHIMICHANGAS!!!, A mexican classic and deadpool s favourite food,4.95,520,N,Y,N,N,N,Y,N
+7,Main,https://i.ibb.co/VL3VWLx/hot-and-smoky-cheeseburgers-with-ba-2.jpg,GF Bacon Cheeseburger,Name a more iconic duo.,4.95,520,N,N,N,N,Y,N,N
+8,Main,https://www.seriouseats.com/recipes/images/2017/01/20170131-quesadillas-three-variations-7.jpg, Spicy Quesadilla, A crunchy tortilla that is filled with melted cheese and Spicy beef.,5.5,600,N,N,N,Y,N,N,N   
+9,Dezert,https://i.ibb.co/TbdpszS/nutella-ice-cream-b1e765.png,Ice cream,Tasty vanila and chocolate,4.95,240,N,Y,Y,N,Y,N
+10,Dips,https://i.ibb.co/ZgWQ2SG/0-N-156762.jpg,Ketchup,Spicy Mexican Ketchup.,1.0,0,N,N,N,N,N,Y,N
+11,Dips,https://i.ibb.co/xX0ySD9/0-N-100872.jpg,Tabasco,Fire in a bottle.,1.25,0,N,N,N,N,N,N,N
+12,Drink,https://i.ibb.co/BVJF7JK/7e73e0f317236f3ba2186242c761807b-medium-55630a86-8c1e-4af2-9909-ada2357953e2-large.png,Coca-cola, A ice cold glass of sugary goodness.,2.0,140,N,N,N,N,N
+13,Drink,https://i.ibb.co/TYCWT9J/256x256bb.jpg,Coppacana,A single shot of lemon cello mixed with tequila and served in a cup.,2.0,100,N,N,N,N,N,Y,N
+14,Drink,https://i.ibb.co/rbGtZ8c/9742268760094.jpg,Wine,Mexican wine,4.8,90,N,N,N,Y,Y,Y,N
+15,Drink,https://i.ibb.co/rkVK1JS/0N-16124.jpg,Water,Refreshing water from Mexico,2.0,4,N,N,N,N,N,Y,N
+16,Drink,https://i.ibb.co/kSPwYny/rare-fortnite-shield-potion.png,Special cocktail,It is Fortnites shield potion.,500,0,N,N,Y,Y,N,Y,N
+17,Drink,https://products0.imgix.drizly.com/ci-coors-light-9373e1becba78338.jpeg,Beer,Cold pint of beer,2,43,N,N,N,N,N,Y,N
+18,Dezert,https://www.cookingclassy.com/wp-content/uploads/2018/07/churros-3-768x1154.jpg, Churros,Fried-dough pastry served with melted milk chocolate.,3,200,N,Y,N,Y,N,N,N

@@ -1,0 +1,232 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+
+.close:hover,
+.close:focus {
+    color: black;
+    cursor: pointer;
+}
+
+
+#container {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-image: url("../background.jpg"); */
+    margin: auto;
+    overflow: hidden;
+    /* box-shadow: -5px 10px 2px 2px; */
+}
+
+.box {
+    background-image: url("../images/background.jpg");
+    color: rgb(77, 46, 0);
+    overflow: hidden;
+}
+
+.comment {
+    background-color: white;
+    text-align: left;
+}
+
+#item {
+    width: 60%;
+    margin-left: 2.5%;
+    /* background-color: red; */
+    margin: 3vh;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 0.6% 0;
+    border: 1px black;
+    box-sizing: border-box;
+    color: black;
+    z-index: 1;
+}
+
+.input_text {
+    width: 49%;
+}
+
+.input_num {
+    width: 15%;
+}
+
+#menu_popup {
+    overflow-y: scroll;
+}
+
+#remove_btn {
+    float: right;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#viewMenu {
+    float: right;
+    margin-right: 5%;
+    color: rgb(77, 46, 0);
+    padding: 5px;
+    font: bold 15px arial, sans-serif;
+    background-color: rgb(210, 255, 77);
+    border-radius: 2px;
+    border-width: thin;
+    border-color: Silver;
+}
+
+#item_text {
+    float: right;
+    margin-top: -20px;
+    margin-right: 5px;
+    width: 200px;
+    overflow: hidden;
+}
+
+#table_number {
+    float: left;
+    margin-top: -2vh;
+    /* margin-right: 5px; */
+    width: 50vw;
+}
+
+
+h1 {
+    color: rgb(77, 46, 0);
+    font: bold 70px arial, sans-serif;
+    text-shadow: -1px 1px rgb(255, 214, 153);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(77, 46, 0);
+    font: bold 25px arial, sans-serif;
+    text-shadow: -1px 1px rgb(255, 214, 153);
+    text-align: center;
+    margin-left: 7%;
+
+}
+
+p {
+    color: rgb(77, 46, 0);
+    font-family: 'Asap', sans-serif;
+    text-shadow: -1px 1px rgb(255, 214, 153);
+    text-align: center;
+
+}
+
+ul {
+    color: rgb(77, 46, 0);
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+    text-shadow: -1px 1px rgb(255, 214, 153);
+    text-align: center;
+    /* color: white;
+    font: bold 1.2vw arial, sans-serif;
+    float: left;
+    text-shadow: -2px 2px Black;
+    margin-left: 1vw;
+    text-align: center; */
+}
+
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 20px #1E2125;
+    font-family: "Arial Black", Gadget, sans-serif;
+    -webkit-text-stroke: 1px #ccc;
+    border-radius: 50%;
+    margin-left: 50%;
+
+}
+
+.dropdown-content {
+    cursor: auto;
+    color: #1E2125;
+    display: inline;
+    position: absolute;
+    padding: 0;
+    box-shadow: 5px 5px 20px #1E2125;
+    margin: 0 0 0 50%;
+}
+
+.show-block, .show {
+    display: block !important;
+}
+
+.button:hover, .button:focus {
+    background-color: #2980B9;
+}
+
+/*
+.dropdown {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}*/
+
+.stopwatch {
+    margin-left: 50%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    /* background-color: rgba(0,0,0,0.4); */
+    border-radius: 10%;
+    border-color: black;
+    border-width: thick;
+    background-image: url("../images/background.jpg");
+    overflow: hidden;
+}
+
+.modal::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.modal-content {
+    margin: 5% auto 15% auto;
+    width: 500px;
+}
+
+.dropdown-content a {
+    margin: 0.5vw;
+    color: rgb(120, 46, 0);
+    padding: 1.5vh 2vw;
+    text-decoration: none;
+    background-color: #1E90FF;
+    font-family: 'Asap', sans-serif;
+    display: inline;
+    border: 3px solid #fff !important;
+    border-radius: 0.5vw;
+    -webkit-text-stroke: 1px #101010;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.border-bottom {
+    border-bottom: 0px solid #ccc !important;
+}

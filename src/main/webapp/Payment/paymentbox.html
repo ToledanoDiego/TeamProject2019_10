@@ -1,0 +1,30 @@
+<!-- Author: Sorin Version: 1.1 As of: 12/03/2019 -->
+<!DOCTYPE html>
+<link rel="stylesheet" href="payment.css">
+<html>
+
+<body>
+    <form>
+        Select a payment type:
+        <br>
+        <select name="type">
+            <option value = "Visa">visa</option>
+            <option value = "MasterCard">mastercard</option>
+            <option value = "Maestro">maestro</option>
+            <option value = "VisaElectron">visaelectron</option>
+        </select>
+        <br> Card number:
+        <br>
+        <input type="text" name="cardnumber" placeholder="4444-3333-2222-1111" id="cardnumber">
+        <br> Expiry Date:
+        <br>
+        <input type="text" name="month" placeholder="03" id="expmonth" class="cardExp">
+        <input type="text" name="year" placeholder="18" id="expyear" class="cardExp">
+        <br>
+        <input type="submit" value="Pay">
+    </form>
+</body>
+
+
+
+</html>

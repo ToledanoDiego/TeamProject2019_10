@@ -1,0 +1,7 @@
+1,food,Classic Burger,Straight up burger no strings attached.,4.25,380
+2,food,Cheeseburger,Throw cheddar or goats cheese into the mix.,4.50,510
+3,food,FishFinger Burger,Classic gourmet student cuisine with tartare sauce.,4.50,400
+4,food,Bacon Cheeseburger,Name a more iconic duo.,4.95,520
+5,food,The Texan,With BBQ sauce cheese and topped with a trio of onion rings.,4.95,240
+6,food,The Spicy One,Roasted peppers jalapenos and spicy peri-peri sauce.,4.95,705
+7,drink,Cardboard,Vegan and Gluten free.,5000.0,0
